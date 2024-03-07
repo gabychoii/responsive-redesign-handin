@@ -1,5 +1,5 @@
 html {
-    font-size: 16px;
+    font-size: 10px;
     background-color: #fdf0d5;
   }
 
@@ -18,21 +18,21 @@ html {
     }
     #project-name{
         padding-top: 1rem;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
 
 #divider{
     border-color: #457b9d; 
     border-style: solid;
-    margin-bottom: 3rem; 
+    margin-bottom: 2rem; 
 }
 
 #bottom-divider{
     border-color: #457b9d; 
     border-style: solid;
-    margin-bottom: 3rem; 
-    margin-top: 3rem;
+    margin-bottom: 2rem; 
+    margin-top: 2rem;
 }
 
 #project-portfolio{
@@ -171,4 +171,9 @@ html {
 #figma-link{
     font-size: 1.5rem;
     font-family: 'Xanh Mono';
+    width: 60%;
+}
+
+#style-guide{
+    width: 80%;
 }
