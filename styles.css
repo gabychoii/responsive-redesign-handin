@@ -1,0 +1,167 @@
+html {
+    font-size: 16px;
+    background-color: #fdf0d5;
+    /* white-space: nowrap; */
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+.about {
+    font-family: 'Xanh Mono';
+    color: #457b9d;
+    background-color: #caf0f8;
+    padding: 1rem;
+
+    #class{
+        font-size: 1.5rem;
+    }
+    #project-name{
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+}
+
+#divider{
+    border-color: #457b9d; 
+    border-style: solid;
+    margin-bottom: 3rem; 
+    /* margin-top: 3rem; */
+}
+
+#bottom-divider{
+    border-color: #457b9d; 
+    border-style: solid;
+    margin-bottom: 3rem; 
+    margin-top: 3rem;
+}
+
+#project-portfolio{
+    margin-left: 1rem;
+    #project-title{
+        color: #023e8a;
+        font-size: 3rem;
+        display: flex;
+        font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+#project-section{
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    color: #003566;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.project-subsection{
+    margin-top: .5rem;
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    color: #457b9d; 
+    font-weight: bold;
+}
+
+
+#curr-website{
+    display: flex; 
+    justify-content: start;
+    flex-direction: column; 
+    align-items : left;
+    margin-top: 2rem;
+}
+
+.prompt-response{
+    font-family: "fontneue-haas-grotesk-display", sans-serif;
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-weight: normal;
+}
+
+.project-image {
+    width: 50%; 
+    height: auto; 
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+.figure{
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    font-family: 'Xanh Mono';
+    font-size: 1.5rem;
+}
+
+#figma-link{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width : 1600px;
+    height : 900px 
+}
+
+#wireframe-display{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    .wireframe-image{
+        width: 30%;
+        margin: 0.25rem;
+    }
+}
+
+#redesigned-wireframe-display{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    .redesigned-wireframe-image{
+        width: 30%;
+        margin: 0.25rem;
+    }
+}
+
+#prototype-display{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    .prototype-image{
+        width: 30%;
+        margin: 0.25rem;
+    }
+}
+
+#table{
+    background-color: #c0d6df;
+    padding: 1rem;
+    width: 80%;
+    margin: 2rem;
+    tr th{
+        font-family: 'Xanh Mono';
+        font-size: 1.75rem;
+        color: #023e8a;
+    }
+    td{
+        font-weight: bold;
+        font-family: 'Xanh Mono';
+        font-size: 1.75rem;
+        color: #023e8a;
+    }
+    td ul li{
+        font-weight: normal;
+        font-family: 'Xanh Mono';
+        font-size: 1.25rem;
+        color: black;
+    }  
+}
+
+#figma-link{
+    font-size: 1.5rem;
+    font-family: 'Xanh Mono';
+}

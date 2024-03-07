@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Responsive Redesign Handin</title>
+        <link rel="stylesheet" href="styles.css" /> 
+    </head>
+    <body>
+        <div class="about"> 
+            <div id="class">CSCI 1300</div>
+            <div id="project-name"> Responsive Redesign </div>
+        </div>
+        <hr id="divider">
+        <div id="project-portfolio">
+            <div id="project-title">Zara Website Redesign</div>
+            <hr id="divider">
+            <div id="project-section">01 - Identifying Usability Problems</div>
+            <hr id="bottom-divider">
+            <div class="project-subsection">
+                Picking a webpage for redesign
+                <div class="prompt-response">
+                    <div id="q-pick-webpage">
+                        Zara is the first website that came to mind when thinking about a website with accessibility issues.
+                         Numerous word-of-mouth encounters and personal experiences as a user of this website has 
+                        made me aware of the common consensus that this website is difficult to navigate.
+                        </div>
+
+                    <div id="curr-website">
+                        <img class="project-image" id="image1" alt="Zara'd current design, image 1" src="./assets/zara_curr_1.png"/>
+                        <div class="figure" id="figure-2">Figure 1: Home page</div>
+                        <img class="project-image" id="image2" alt="Zara's current design, image 2" src="./assets/zara_curr_2.png"/>
+                        <div class="figure" id="figure-1">Figure 2: Home page, navigation menu</div>
+                        <img class="project-image" id="gif" alt="zara gif" src="./assets/zara.gif"/>
+                        <div class="figure" id="figure-1">Figure 3: Scrolling on product page</div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-subsection">
+                Finding Problems
+                <div class="prompt-response">
+                    <div id="q-find-problems"></div>
+                    <table id="table">
+                        <tr>
+                            <th>Criteria</th>
+                            <th>Issues</th>
+                        </tr>
+                        <tr>
+                            <td>Usability</td>
+                            <td>
+                                <ul>
+                                    <li>Unless the user changes the website format to visually filter products side-by-side (second option), there are no names or information describing each product. This makes it difficult to identify the exact clothing item being sold and later search for products by name.</li>
+                                    <li>On the product pages, there are no buttons to scroll between the images for each item. Users must intentionally swipe to scroll between images. Additionally, only some products have multiple images - this makes it difficult to perform traditional online shopping tasks such as easily looking at items from multiple angles.</li>
+                                    <li>You cannot filter by more than one object category at a time.</li>
+                                    <li>(Figure 3) The filtering categories are located at the top of the page. These categories disappear when a user scrolls down, and reappear when a user scrolls back up. Additionally, the filters scroll without a solid background bar, and often blend in with the pictures of clothing.</li>
+
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Learnability</td>
+                            <td>
+                                <ul>
+                                    <li>Home page: The large, moving images distract from the navigation bar at the top of the page, oftentimes even obstructing the (already very thin) text with matching background and text colors (e.g., screenshot 1, top right corner).</li>
+                                    <li>Since the text is directly on the background image (with no surrounding box/shadow) it is not made clear that a user is supposed to click on the text to access the website’s navigation menu.</li>
+                                    <li>If a user does correctly utilize the floating text to navigate to the pop-up navigation menu, they’ll likely notice that the available categories of product are not intuitively organized, nor do they seem to be in any particular order. E.g., “Woman”’s menu has 30 separate categories, sorted by clothing type, material, line, and even has a Home section - they are all listed with no visual point of differentiation.</li>
+                                    <li>Product Page: These buttons have a box surrounding them (unlike the home page), but there is not a clear indication of the purpose of each button (some open filters, some automatically filter). A user can change the orientation in which objects are laid out, but there is no text indicating this function.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Memorability</td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        Over time, this website has maintained the same general structure - however, Zara follows a “fast fashion” product cycle, and will change the navigation menu categories to reflect this, leading to a lack of consistency in category organization which can make it difficult to look for specific products.
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>  
+                </div>  
+            </div>
+            <hr id="divider">
+            <div id="project-section">02 - Visual Redesign</div>
+            <hr id="bottom-divider">
+            <!-- <div id="design-ideation">Design Ideation</div> -->
+            <div id="sketches">
+                <div class="project-subsection">
+                    Speed Sketching
+                </div>
+                <div class="prompt-response">
+                    <img class="project-image"  id="speed-sketch" alt="Visual Redesign Speed Sketch" src="./assets/speed-sketching.png"/>
+                </div>
+                <div class="project-subsection">
+                    Final Sketch
+                </div>
+                <div class="prompt-response">
+                    <img class="project-image"  id="speed-sketch" alt="Visual Redesign Speed Sketch" src="./assets/final-sketch.png"/>
+                </div>
+            </div>
+            <div class="project-subsection">
+                [Iteration 1] Low-Fidelity Wireframing + Redesign Annotations
+                <div id="wireframe-display">
+                    <img class="wireframe-image" id="wireframe-desktop" alt="Wireframe for desktop" src="./assets/wireframe-desktop.png"/>
+                    <img class="wireframe-image" id="wireframe-tablet" alt="Wireframe for tablet" src="./assets/wireframe-tablet.png"/>
+                    <img class="wireframe-image" id="wireframe-phone" alt="Wireframe for phone" src="./assets/wireframe-phone.png"/>
+                </div>
+                [Revised] Low-Fidelity Wireframing + Redesign Annotations
+                <div id="redesigned-wireframe-display">
+                    <img class="redesigned-wireframe-image" id="redesigned-wireframe-desktop" alt="Redesigned wireframe for desktop" src="./assets/redesigned-wireframe-desktop.png"/>
+                    <img class="redesigned-wireframe-image" id="redesigned-wireframe-tablet" alt="Redesigned wireframe for tablet" src="./assets/redesigned-wireframe-tablet.png"/>
+                    <img class="redesigned-wireframe-image" id="redesigned-wireframe-phone" alt="Redesigned wireframe for phone" src="./assets/redesigned-wireframe-phone.png"/>
+                </div>
+            </div>
+
+            <div class="project-subsection">
+                High-Fidelity Prototype
+                <div id="prototype-display">
+                    <img class="prototype-image" id="prototype-desktop" alt="Prototype for desktop" src="./assets/prototype-desktop.png"/>
+                    <img class="prototype-image" id="prototype-tablet" alt="Prototype for tablet" src="./assets/prototype-tablet.png"/>
+                    <img class="prototype-image" id="prototype-phone" alt="Prototype for phone" src="./assets/prototype-phone.png"/>
+                </div>
+            </div>
+            <div id="figma-elements">
+                <div class="project-subsection">
+                    Link to Figma
+                </div>
+                <div>
+                    <iframe id="figma-link" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F1q0aUAWSb5rx2Wp69gXrec%2F%255BCSCI-1300%257D-02---Revised-Redesign%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DdJt1uemCJyedcyHH-1" allowfullscreen></iframe>
+                </div>
+                <div class="project-subsection">
+                    Style Guide
+                    <div id="style-guide">
+                        <img id="style-guide" alt="Style guide" src="./assets/style-guide.png"/>
+                    </div>
+                </div>
+            </div>
+            <hr id="divider">
+            <div id="project-section">Conclusion</div>
+            <hr id="bottom-divider">  
+            <div id="conclusion">
+                Overall, as can be seen above, the process of redesign highlighted the dynamic 
+                nature of the design process. From my brainstorming stage (sketches) to my final 
+                prototype, there is an evident change in certain design choices and the reasoning
+                behind these changes. These changes were the result of observing the interfaces of 
+                other websites, and developing an understanding of the difference between accessibility
+                and pure "aesthetic" in website design. It was very interesting trying to brainstorm
+                how to bring accessibility to the Zara website while maintaining Zara's brand, which 
+                is one of the crucial factors to its business model. I really enjoyed this process, and 
+                am now noticing patterns and design choices that I interact with on a daily basis!
+            </div>
+    </body>
+</html>
